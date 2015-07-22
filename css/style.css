@@ -1,0 +1,96 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.search{
+	
+	width: 200px;
+	border-radius: 10px;
+
+}
+
+input.ng-invalid.ng-dirty{
+ border: 1px solid red;
+ 	
+
+}
+
+span{
+color: red;
+
+
+}
+
+label{
+
+	margin-bottom: 5px;
+
+}
+
+
+
+.left{
+
+	width: 780px;
+	height: 160px;
+	margin-left: 20px;
+	padding: 0px;
+	float: left;
+	padding-bottom: 10px;
+	border-right: 1px solid white;
+	
+
+}
+
+h4{
+font-family: Arial;
+color: #0084c6;
+padding-bottom: 5px;
+margin-bottom: 4px;
+border-bottom: 2px solid white;
+
+}
+
+.right{
+	position: absolute;
+	width: 200px;
+	height: 160px;
+	color: red;
+	float: left;
+	margin-left:  60px;
+	padding: 0px;
+	background-color: #038;
+	margin-right: 5px solid white;
+
+}
+
+.change{
+
+	background-color: #f5f5f5;
+	color: #f5f5f5;
+	height: 30px;
+	width: 200px;
+	margin-left: 860px;
+	margin-top: 150px;
+	line-height: 40px;
+	visibility: visible;
+
+}
+.change:hover{
+
+		background-color:#428bca;
+		color: transparent;
+
+
+}
+
+
+a:hover{
+
+	text-decoration: none;
+	color: dadada;
+
+}
+
